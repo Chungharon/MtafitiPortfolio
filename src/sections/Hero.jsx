@@ -5,14 +5,13 @@ import { useMediaQuery } from "react-responsive";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-  const text = `I help growing brands and startups gain an
-unfair advantage through premium
-results driven webs/apps`;
+  const text = `Mtafitisoko operates on three-sided marketplace that seamlessly blends B2C, B2B, 
+  and C2B dynamics to serve the academic ecosystem:`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"404 No Bugs Found"}
-        title={"Ali Sanati"}
+        subTitle={"404 Jitambulishe"}
+        title={"WHY MtafitiSoko?"}
         text={text}
         textColor={"text-black"}
       />
